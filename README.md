@@ -5,6 +5,10 @@ A Node.js-based admin panel using Express and EJS for server-side rendering. The
 
 Link Here:- https://pr-admin-panel-node-js.onrender.com
 
+# Output:
+
+![alt text](./output/image.png)
+
 ## Technologies Used
 - **Node.js**: JavaScript runtime environment
 - **Express.js**: Web framework for Node.js
