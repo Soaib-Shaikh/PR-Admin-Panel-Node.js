@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.port.env || 3000;
+const port = process.env.port || 3000;
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
