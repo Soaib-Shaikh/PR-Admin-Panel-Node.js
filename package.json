@@ -1,6 +1,28 @@
 {
+  "name": "pr-admin-panel-node",
+  "version": "1.0.0",
+  "description": "A Node.js-based admin panel using Express and EJS for server-side rendering. The project provides a responsive UI for managing tables, forms, and other admin features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soaib-Shaikh/PR-Admin-Panel-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Soaib-Shaikh/PR-Admin-Panel-Node.js/issues"
+  },
+  "homepage": "https://github.com/Soaib-Shaikh/PR-Admin-Panel-Node.js#readme",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   }
 }
